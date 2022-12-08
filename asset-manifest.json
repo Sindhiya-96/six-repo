@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/six-repo/static/css/main.e6c13ad2.css",
+    "main.js": "/six-repo/static/js/main.00690fdc.js",
+    "static/media/white_img.webp": "/six-repo/static/media/white_img.869c13169df01af196ac.webp",
+    "static/media/2022.jpg": "/six-repo/static/media/2022.3f8dc96fef0a66bfb5da.jpg",
+    "static/media/linked_profile pic.jpg": "/six-repo/static/media/linked_profile pic.18791cda65014ca3bfca.jpg",
+    "static/media/2021.png": "/six-repo/static/media/2021.f152b51c85a7f8c8b33a.png",
+    "static/media/2019.png": "/six-repo/static/media/2019.0f4f9dcbb71567f3f0c6.png",
+    "static/media/2020.webp": "/six-repo/static/media/2020.eac6fb15b224af8634bb.webp",
+    "index.html": "/six-repo/index.html",
+    "main.e6c13ad2.css.map": "/six-repo/static/css/main.e6c13ad2.css.map",
+    "main.00690fdc.js.map": "/six-repo/static/js/main.00690fdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.00690fdc.js"
+  ]
+}
