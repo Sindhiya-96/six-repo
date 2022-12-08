@@ -19,28 +19,28 @@ function Interest(){
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto others_navlink ">
-            <Nav.Link className=" navbar1_link fs-5"><NavLink to='/'>Home</NavLink></Nav.Link>
+            <Nav.Link className=" navbar1_link fs-5"><NavLink to='/' className='fs-5 text-decoration-none text-secondary'>Home</NavLink></Nav.Link>
             
-            <NavDropdown title="Teaching" id="basic-nav-dropdown2" className="navbar1_link ">
-              <NavDropdown.Item className='fs-5'><NavLink to='/philosophy'>Philosophy</NavLink></NavDropdown.Item>
+            <NavDropdown title="Teaching" id="basic-nav-dropdown3" className="navbar1_link fs-5 ">
+              <NavDropdown.Item className='fs-5'><NavLink to='/philosophy'  className='fs-5 text-decoration-none text-secondary'>Philosophy</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/pgcourses'>PG Courses</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/pgcourses'  className='fs-5 text-decoration-none text-secondary'>PG Courses</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/ugcourses'>UG Courses</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/ugcourses'  className='fs-5 text-decoration-none text-secondary'>UG Courses</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/supervision'>Supervision</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/supervision'  className='fs-5 text-decoration-none text-secondary'>Supervision</NavLink></NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Research Highlights" id="basic-nav-dropdown2" className="navbar1_link ">
-              <NavDropdown.Item className='fs-5'><NavLink to='/interest'>Interests</NavLink></NavDropdown.Item>
+            <NavDropdown title="Research Highlights" id="basic-nav-dropdown3" className="navbar1_link fs-5 ">
+              <NavDropdown.Item className='fs-5'><NavLink to='/interest'  className='fs-5 text-decoration-none text-secondary'>Interests</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/blog'>Publications</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/blog'  className='fs-5 text-decoration-none text-secondary'>Publications</NavLink></NavDropdown.Item>
             </NavDropdown>
             
-            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/admin'>Administration</NavLink></Nav.Link>
-            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/awards'>Awards</NavLink></Nav.Link>
-            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/others'>Others</NavLink></Nav.Link>
-            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/contact'>Contact Us</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/admin'  className='fs-5 text-decoration-none text-secondary'>Administration</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/awards'  className='fs-5 text-decoration-none text-secondary'>Awards</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/others'  className='fs-5 text-decoration-none text-secondary'>Others</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/contact'  className='fs-5 text-decoration-none text-secondary'>Contact Us</NavLink></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -87,30 +87,30 @@ function Interest(){
         <Row className="mx-auto w-75">
             <Col sm className="bg-white py-4 me-4 mb-3 interest_card border-top border-info border-5   "> 
                 <Card.Text className='text-center fs-6 fw-bold text-uppercase px-5 py-3'>Machine Learning & AI</Card.Text>
-                <Col className='text-center mt-4'><Button  className=" text-center mt-4 btn btn-dark " variant="dark" ><NavLink to='/interestsub'>Learn More</NavLink></Button></Col>
+                <Col className='text-center mt-4'><Button  className=" text-center mt-4 btn btn-dark " variant="dark" ><NavLink to='/interestsub' className='fs-5 text-decoration-none text-white'>Learn More</NavLink></Button></Col>
             </Col>
             <Col sm className="bg-white py-4 me-4 mb-3 interest_card border-top  border-5  border-info ">
                 <Card.Text className='text-center fs-6 fw-bold text-uppercase px-5 py-3'>Computer Vision & Image Processing</Card.Text>
-                <Col className='text-center mt-4'><Button  className=" text-center btn btn-dark " variant="dark"><NavLink to='/interestsub'>Learn More</NavLink></Button></Col>
+                <Col className='text-center mt-4'><Button  className=" text-center btn btn-dark " variant="dark"><NavLink to='/interestsub' className='fs-5 text-decoration-none text-white'>Learn More</NavLink></Button></Col>
             </Col>
             <Col sm className="bg-white py-4 me-4 mb-3 interest_card border-top  border-5  border-info">
                 <Card.Text className='text-center fs-6 fw-bold text-uppercase px-5 py-3'>Natural Language Processing</Card.Text>
-                <Col className='text-center mt-4'><Button  className=" text-center btn  btn-dark" variant="dark"><NavLink to='/interestsub'>Learn More</NavLink></Button></Col>
+                <Col className='text-center mt-4'><Button  className=" text-center btn  btn-dark" variant="dark"><NavLink to='/interestsub' className='fs-5 text-decoration-none text-white'>Learn More</NavLink></Button></Col>
             </Col>
             
         </Row>
         <Row className="mt-5 mx-auto w-75">
         <Col sm className="bg-white py-4 me-4 mb-3 interest_card border-top  border-5  border-info">
             <Card.Text className='text-center fs-6 fw-bold text-uppercase px-5 py-3'>Industry 4.0</Card.Text>
-            <Col className='text-center mt-4'><Button  className=" text-center mt-4 btn  btn-dark " variant="dark"><NavLink to='/interestsub'>Learn More</NavLink></Button></Col>
+            <Col className='text-center mt-4'><Button  className=" text-center mt-4 btn  btn-dark " variant="dark"><NavLink to='/interestsub' className='fs-5 text-decoration-none text-white'>Learn More</NavLink></Button></Col>
         </Col>
         <Col sm className="bg-white py-4 me-4 mb-3 interest_card border-top  border-5  border-info">
             <Card.Text className='text-center fs-6 fw-bold text-uppercase px-5 py-3'>Cognitive Science</Card.Text>
-            <Col className='text-center mt-4'><Button  className=" text-center mt-4 btn  btn-dark" variant="dark"><NavLink to='/interestsub'>Learn More</NavLink></Button></Col>
+            <Col className='text-center mt-4'><Button  className=" text-center mt-4 btn  btn-dark" variant="dark"><NavLink to='/interestsub' className='fs-5 text-decoration-none text-white'>Learn More</NavLink></Button></Col>
         </Col>
         <Col sm className="bg-white py-4 me-4 mb-3 interest_card border-top  border-5  border-info">
             <Card.Text className='text-center fs-6 fw-bold text-uppercase px-5 py-3'>Multimodal Signal Processing</Card.Text>
-            <Col className='text-center mt-4'><Button  className=" text-center btn  btn-dark " variant="dark"><NavLink to='/interestsub'>Learn More</NavLink></Button></Col>
+            <Col className='text-center mt-4'><Button  className=" text-center btn  btn-dark " variant="dark"><NavLink to='/interestsub' className='fs-5 text-decoration-none text-white'>Learn More</NavLink></Button></Col>
         </Col>
         </Row>
     </Container>

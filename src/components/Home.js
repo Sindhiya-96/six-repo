@@ -22,28 +22,28 @@ function Home(){
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto others_navlink ">
-            <Nav.Link className=" navbar1_link fs-5"><NavLink to='/'>Home</NavLink></Nav.Link>
+            <Nav.Link className=" navbar1_link fs-5"><NavLink to='/' className='fs-5 text-decoration-none text-secondary'>Home</NavLink></Nav.Link>
             
             <NavDropdown title="Teaching" id="basic-nav-dropdown2" className="navbar1_link ">
-              <NavDropdown.Item className='fs-5'><NavLink to='/philosophy'>Philosophy</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/philosophy'  className='fs-5 text-decoration-none text-secondary'>Philosophy</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/pgcourses'>PG Courses</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/pgcourses'  className='fs-5 text-decoration-none text-secondary'>PG Courses</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/ugcourses'>UG Courses</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/ugcourses'  className='fs-5 text-decoration-none text-secondary'>UG Courses</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/supervision'>Supervision</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/supervision'  className='fs-5 text-decoration-none text-secondary'>Supervision</NavLink></NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Research Highlights" id="basic-nav-dropdown2" className="navbar1_link ">
-              <NavDropdown.Item className='fs-5'><NavLink to='/interest'>Interests</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/interest'  className='fs-5 text-decoration-none text-secondary'>Interests</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className='fs-5'><NavLink to='/blog'>Publications</NavLink></NavDropdown.Item>
+              <NavDropdown.Item className='fs-5'><NavLink to='/blog'  className='fs-5 text-decoration-none text-secondary'>Publications</NavLink></NavDropdown.Item>
             </NavDropdown>
             
-            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/admin'>Administration</NavLink></Nav.Link>
-            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/awards'>Awards</NavLink></Nav.Link>
-            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/others'>Others</NavLink></Nav.Link>
-            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/contact'>Contact Us</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/admin'  className='fs-5 text-decoration-none text-secondary'>Administration</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/awards'  className='fs-5 text-decoration-none text-secondary'>Awards</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5 "><NavLink to='/others'  className='fs-5 text-decoration-none text-secondary'>Others</NavLink></Nav.Link>
+            <Nav.Link className="hover-shadow navbar1_link fs-5"><NavLink to='/contact'  className='fs-5 text-decoration-none text-secondary'>Contact Us</NavLink></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -105,7 +105,7 @@ function Home(){
             With great enthusiasm by creating a constructive, interactive, cooperative and collaborative environment that facilitates learning
             </Card.Text>
             <Card className='border-0'>
-                <Button  className="text-center mx-auto my-2" variant="dark"><NavLink to='/philosophy'>Click here</NavLink></Button>
+                <Button  className="text-center mx-auto my-2" variant="dark"><NavLink to='/philosophy'  className='fs-5 text-decoration-none text-white'>Click here</NavLink></Button>
             </Card>
         
           </Card.Body>
@@ -119,7 +119,7 @@ function Home(){
             Graduate Studies teaching at Concordia University of Edmonton, Canada
             </Card.Text>
             <Card className='border-0'>
-                <Button  className="text-center mx-auto mt-5 " variant="dark" ><NavLink to='/pgcourses'>Click here</NavLink></Button>
+                <Button  className="text-center mx-auto mt-5 " variant="dark" ><NavLink to='/pgcourses' className='fs-5 text-decoration-none text-white'>Click here</NavLink></Button>
             </Card>
           </Card.Body>
         </Card>
@@ -134,7 +134,7 @@ function Home(){
           Undergraduate Studies teaching at Concordia University of Edmonton, Canada
           </Card.Text>
           <Card className='border-0'>
-                <Button  className="text-center mx-auto mt-5" variant="dark" ><NavLink to='/ugcourses'>Click here</NavLink></Button>
+                <Button  className="text-center mx-auto mt-5" variant="dark" ><NavLink to='/ugcourses' className='fs-5 text-decoration-none text-white'>Click here</NavLink></Button>
           </Card>
         </Card.Body>
       </Card>
@@ -148,7 +148,7 @@ function Home(){
         Had the opportunity to mentor thirty-five (35) trainees having multidisciplinary background from multiple institutions
           </Card.Text>
           <Card className='border-0'>
-                <Button  className="text-center mx-auto mt-5" variant="dark" ><NavLink to='/supervision'>Click here</NavLink></Button>
+                <Button  className="text-center mx-auto mt-5" variant="dark" ><NavLink to='/supervision' className='fs-5 text-decoration-none text-white'>Click here</NavLink></Button>
           </Card>
         
         </Card.Body>
@@ -171,7 +171,7 @@ function Home(){
                 Computer Vision, Robotics, Computational Cognitive Science, Reliability, Signal Processing, and Software Engineering. To learn more...
                 </Card.Text>
                 <Card className='border-0'>
-                <Button  className="text-center mx-auto my-2" variant="dark" ><NavLink to='/interest'>Click here</NavLink></Button>
+                <Button  className="text-center mx-auto my-2" variant="dark" ><NavLink to='/interest' className='fs-5 text-decoration-none text-white'>Click here</NavLink></Button>
                 </Card>
                 
               
@@ -189,7 +189,7 @@ function Home(){
                 My present h-index, i10-index, and RG score are 9, 9, and 14.15 respectively. To learn more...
                 </Card.Text>
                 <Card className='border-0'>
-                <Button  className="text-center mx-auto my-2" variant="dark"  ><NavLink to='/blog'>Click here</NavLink></Button>
+                <Button  className="text-center mx-auto my-2" variant="dark"  ><NavLink to='/blog' className='fs-5 text-decoration-none text-white'>Click here</NavLink></Button>
                 </Card>
               
               </Card.Body>
