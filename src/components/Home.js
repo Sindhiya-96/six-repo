@@ -24,7 +24,7 @@ function Home(){
           <Nav className="ms-auto others_navlink ">
             <Nav.Link className=" navbar1_link fs-5"><NavLink to='/' className='fs-5 text-decoration-none text-secondary'>Home</NavLink></Nav.Link>
             
-            <NavDropdown title="Teaching" id="basic-nav-dropdown2" className="navbar1_link ">
+            <NavDropdown title="Teaching" id="basic-nav-dropdown3" className="navbar1_link ">
               <NavDropdown.Item className='fs-5'><NavLink to='/philosophy'  className='fs-5 text-decoration-none text-secondary'>Philosophy</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item className='fs-5'><NavLink to='/pgcourses'  className='fs-5 text-decoration-none text-secondary'>PG Courses</NavLink></NavDropdown.Item>
@@ -34,7 +34,7 @@ function Home(){
               <NavDropdown.Item className='fs-5'><NavLink to='/supervision'  className='fs-5 text-decoration-none text-secondary'>Supervision</NavLink></NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Research Highlights" id="basic-nav-dropdown2" className="navbar1_link ">
+            <NavDropdown title="Research Highlights" id="basic-nav-dropdown3" className="navbar1_link ">
               <NavDropdown.Item className='fs-5'><NavLink to='/interest'  className='fs-5 text-decoration-none text-secondary'>Interests</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item className='fs-5'><NavLink to='/blog'  className='fs-5 text-decoration-none text-secondary'>Publications</NavLink></NavDropdown.Item>
